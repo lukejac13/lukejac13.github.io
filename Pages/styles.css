@@ -52,7 +52,7 @@ body {
   
   /* Footer */
   footer {
-    text-align: center;
+    text-align: left;
     padding: 1rem 0;
     background-color: #333;
     color: #fff;
@@ -64,3 +64,21 @@ body {
     padding: 16px ;
   }
   
+  #contact{
+    width:100%;
+    text-align:center;
+    background-color:#222
+  }
+
+  #sudoku, #sudokuIframe {
+    width: 500px;
+    height: 550px;
+    margin: 0 auto;
+    
+}
+
+#sudokuIframe {
+    display: block;
+    border-style:none;
+
+}
